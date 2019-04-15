@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shuaibi.zaizaiuser.mapper.IMenuMapper">
+
+    <resultMap id="menuMap" type="com.shuaibi.zaizaicommons.entity.user.Menu">
+        <id property="id" column="menu_id"/>
+        <result property="fatherId" column="menu_father_id"></result>
+        <result property="name" column="menu_name"></result>
+        <result property="level" column="menu_leave"></result>
+        <result property="order" column="menu_order"></result>
+        <result property="url" column="menu_url"></result>
+        <result property="desc" column="menu_desc"></result>
+    </resultMap>
+
+    <select id="queryMenu" parameterType="int" resultMap="menuMap">
+        SELECT a.* FROM zaizai_menu a
+        LEFT JOIN zaizai_menu b ON a.menu_id = b.menu_father_id
+        GROUP BY a.menu_id
+    </select>
+</mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shuaibi.zaizaigoods.mapper.ShopMapper">
+
+    <resultMap id="shopMap" type="com.shuaibi.zaizaicommons.entity.goods.Shop">
+        <id property="shopId" column="shop_id"/>
+        <result property="shopName" column="shop_name"/>
+        <result property="shopContent" column="shop_content"/>
+        <result property="createTime" column="shop_createtime"/>
+        <result property="updateTime" column="shop_updatetime"/>
+        <association property="user" column="shop_user" select="com.shuaibi.zaizaigoods.mapper.UserMapper.queryUserById"/>
+    </resultMap>
+
+    <select id="queryShopById" resultMap="shopMap" parameterType="string">
+        SELECT * FROM zaizai_shop where shop_id = #{id}
+    </select>
+
+</mapper>

@@ -1,0 +1,13 @@
+com\shuaibi\zaizaigoods\mapper\RoleMapper.class
+com\shuaibi\zaizaigoods\mapper\BrandMapper.class
+com\shuaibi\zaizaigoods\ZaizaiGoodsApplication.class
+com\shuaibi\zaizaigoods\mapper\TypeMapper.class
+com\shuaibi\zaizaigoods\mapper\GoodMapper.class
+com\shuaibi\zaizaigoods\mapper\UserMapper.class
+com\shuaibi\zaizaigoods\Service\GoodService.class
+com\shuaibi\zaizaigoods\conf\FdfsConfiguration.class
+com\shuaibi\zaizaigoods\util\UploadUtil.class
+com\shuaibi\zaizaigoods\mapper\ShopMapper.class
+com\shuaibi\zaizaigoods\Service\impl\GoodServiceImpl.class
+com\shuaibi\zaizaigoods\Controller\GoodController.class
+com\shuaibi\zaizaigoods\conf\FdfsConfig.class

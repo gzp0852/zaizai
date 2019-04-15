@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shuaibi.demo.BoxFrameDisc.dao.BoxMapper">
+
+    <resultMap id="boxMap" type="com.shuaibi.demo.BoxFrameDisc.bean.BoxTemplate">
+        <id property="boxId" column="box_id"/>
+        <result property="boxRow" column="box_row"></result>
+        <result property="boxCol" column="box_col"></result>
+        <result property="boxTrend" column="box_trend"></result>
+        <result property="boxBegin" column="box_begin"></result>
+        <result property="boxSide" column="box_side"></result>
+        <association property="frameTemplate" column="frame_id"
+                     select="com.fiberhome.filink.fdevice.dao.area.AreaInfoDao"/>
+    </resultMap>
+
+    <resultMap id="frameMap" type="com.shuaibi.demo.BoxFrameDisc.bean.FrameTemplate">
+        <id property="frameId" column="frame_id"/>
+        <result property="frameRow" column="frame_row"></result>
+        <result property="frameCol" column="frame_col"></result>
+        <result property="frameTrend" column="frame_trend"></result>
+        <result property="frameBegin" column="frame_begin"></result>
+        <association property="discTemplate" column="disc_id"
+                     select="queryDiscById"/>
+    </resultMap>
+
+    <resultMap id="discMap" type="com.shuaibi.demo.BoxFrameDisc.bean.Disc">
+        <id property="discId" column="disc_id"/>
+        <result property="discRow" column="disc_row"></result>
+        <result property="discCol" column="disc_col"></result>
+        <result property="discTrend" column="disc_trend"></result>
+        <result property="discBegin" column="disc_begin"></result>
+        <result property="discSide" column="disc_side"></result>
+    </resultMap>
+
+    <select id="queryBoxById" resultMap="boxMap">
+        SELECT * FROM box where box_id = #{id}
+    </select>
+
+    <select id="queryFrameById" resultMap="frameMap">
+        SELECT * FROM frame where frame_id = #{id}
+    </select>
+
+    <select id="queryDiscById" resultMap="discMap">
+        SELECT * FROM disc where disc_id = #{id}
+    </select>
+
+    <select id="queryDevice" resultMap="deviceInfoMap">
+        SELECT * FROM device_info WHERE device_id = #{id}
+    </select>
+
+    <select id="queryDiscOnline" resultMap="discOnline">
+        SELECT *  from disc_online where device_id = #{id}
+    </select>
+
+    <insert id="createDisc" parameterType="com.shuaibi.demo.BoxFrameDisc.bean.Disc" useGeneratedKeys="true" keyProperty="ID">
+        INSERT INTO disc
+        (disc_id, disc_name, disc_row, disc_col, disc_trend, disc_begin, disc_side)
+        VALUES
+        (#{discId}, #{discName}, #{discRow}, #{discCol}, #{discTrend}, #{discBegin}, #{discSide})
+        <selectKey resultType="string" order="BEFORE" keyProperty="discId">
+            select replace(uuid(),'-','') from dual
+        </selectKey>
+    </insert>
+
+    <insert id="createFrame"  parameterType="com.shuaibi.demo.BoxFrameDisc.bean.FrameTemplate" useGeneratedKeys="true" keyProperty="ID">
+        INSERT INTO frame
+        (frame_id, frame_name, frame_row, frame_col, frame_trend, frame_begin, disc_id)
+        VALUES
+        (#{frameId}, #{frameName}, #{frameRow}, #{frameCol}, #{frameTrend}, #{frameBegin}, #{discTemplate.discId})
+        <selectKey resultType="string" order="BEFORE" keyProperty="frameId">
+            select replace(uuid(),'-','') from dual
+        </selectKey>
+    </insert>
+
+    <insert id="createBox"  parameterType="com.shuaibi.demo.BoxFrameDisc.bean.BoxTemplate" useGeneratedKeys="true" keyProperty="ID">
+        INSERT INTO box
+        (box_id, box_name, box_row, box_col, box_trend, box_begin, box_side, frame_id)
+        VALUES
+        (#{boxId}, #{boxName}, #{boxRow}, #{boxCol}, #{boxTrend}, #{boxBegin}, #{boxSide}, #{frameTemplate.frameId})
+        <selectKey resultType="string" order="BEFORE" keyProperty="boxId">
+            select replace(uuid(),'-','') from dual
+        </selectKey>
+    </insert>
+
+    <update id="updateDevice" parameterType="string">
+        UPDATE device_info SET
+        box_id = #{param1}
+        where device_id = #{param2}
+    </update>
+
+    <insert id="createDiscOnline" parameterType="com.shuaibi.demo.BoxFrameDisc.bean.DiscOnline" useGeneratedKeys="true" keyProperty="ID">
+        INSERT INTO disc_online
+        (id, device_id, disc_id, box_side, box_no, frame_no)
+        VALUES
+        (#{id}, #{deviceId}, #{discId}, #{boxSide}, #{boxNo}, #{frameNo})
+        <selectKey resultType="string" order="BEFORE" keyProperty="id">
+            select replace(uuid(),'-','') from dual
+        </selectKey>
+    </insert>
+
+    <insert id="createPort" parameterType="list">
+        INSERT INTO port
+        (port_id, disc_online_id, disc_online_side, disc_online_no, port_code)
+        VALUES
+        <foreach collection="ports" item="port" separator="," index="index">
+        (replace(uuid(),'-',''), #{port.discOnlineId}, #{port.discOnlineSide}, #{port.discOnlineNo}, #{port.portCode})
+        </foreach>
+
+
+    </insert>
+
+
+    <resultMap id="discOnline" type="com.shuaibi.demo.BoxFrameDisc.bean.DiscOnline">
+        <id property="id" column="id"/>
+        <result property="discId" column="disc_id"/>
+        <result property="deviceId" column="device_id"></result>
+        <result property="boxSide" column="box_side"></result>
+        <result property="boxNo" column="box_no"/>
+        <result property="frameNo" column="frame_no"/>
+        <association property="ports" column="id"
+                     select="queryPortById"/>
+    </resultMap>
+
+    <select id="queryPortById" parameterType="string" resultMap="portMap">
+        SELECT * FROM port WHERE disc_online_id = #{id}
+    </select>
+
+    <resultMap id="portMap" type="com.shuaibi.demo.BoxFrameDisc.bean.Port">
+        <id column="port_id" property="portId"/>
+        <result column="disc_online_id" property="discOnlineId"/>
+        <result column="disc_online_side" property="discOnlineSide"/>
+        <result column="disc_online_no" property="discOnlineNo"/>
+        <result column="port_code" property="portCode"/>
+    </resultMap>
+    <!-- 通用查询映射结果 -->
+    <resultMap id="deviceInfoMap" type="com.shuaibi.demo.BoxFrameDisc.bean.Device">
+        <id column="device_id" property="deviceId"/>
+        <result column="device_type" property="deviceType"/>
+        <result column="device_name" property="deviceName"/>
+        <result column="device_status" property="deviceStatus"/>
+        <result column="device_code" property="deviceCode"/>
+        <result column="address" property="address"/>
+        <result column="accountability_unit" property="accountabilityUnit"/>
+        <result column="deploy_status" property="deployStatus"/>
+        <result column="province_name" property="provinceName"/>
+        <result column="city_name" property="cityName"/>
+        <result column="district_name" property="districtName"/>
+        <result column="position_gps" property="positionGps"/>
+        <result column="position_base" property="positionBase"/>
+        <result column="area_id" property="areaId"/>
+        <result column="remarks" property="remarks"/>
+        <result column="specific_field_id" property="specificFieldId"/>
+        <result column="create_user" property="createUser"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_user" property="updateUser"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="is_deleted" property="isDeleted"/>
+        <result column="box_id" property="boxId"/>
+    </resultMap>
+</mapper>

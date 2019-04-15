@@ -1,0 +1,1794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="b0d7718a-4489-4f91-aeee-64268a99428e" name="Default" comment="Test例子">
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/AopDemo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/AopDemo/DemoAnnotation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/AopDemo/DemoAspect.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/Box.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/BoxTemplate.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/Device.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/Disc.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/DiscOnline.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/DiscOnlineTemplate.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/Frame.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/FrameTemplate.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/Port.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/Template.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/controller" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/controller/BoxController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/dao" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/dao/BoxMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/service" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/DateTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/MapTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/Synchronized" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/Synchronized/MyThread.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/Synchronized/SynchronizedContyroller.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/Synchronized/SynchronizedTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/ZaizaiDemoApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/controller" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/controller/DemoController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/resources/mapper" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/main/resources/mapper/BoxMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/test" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/test/java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/test/java/com" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/test/java/com/shuaibi" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/test/java/com/shuaibi/demo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/src/test/java/com/shuaibi/demo/ZaizaiDemoApplicationTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-demo/zaizai-demo.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/ZaizaiSecurityApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/BrowserSecurityController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/authentication" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/authentication/ImoocAuthenticationFailureHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/authentication/ImoocAuthenticationSuccessHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/conf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/conf/MyUserDetailsService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/conf/SecurityConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/controller" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/controller/UserController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/entity" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/entity/User.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/mapper" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/mapper/IUserMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/service" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/service/IUserService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/service/impl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/service/impl/UserServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/SecurityCoreConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/properties/BrowserProperties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/properties/ImageCodeProperties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/properties/LoginType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/properties/SecurityProperties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/properties/ValidateCodeProperties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ImageCode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ImageCodeGenerator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ValidateCodeBeanConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ValidateCodeController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ValidateCodeException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ValidateCodeFilter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ValidateCodeGenerator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/demo" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/demo/code" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/demo/code/DemoImageCodeGenerator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/support" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/support/SimpleResponse.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/util" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/util/Result.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/util/ResultCode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/util/ResultUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/resources/mapper" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/resources/mapper/UserMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/resources/resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/resources/resources/demo-signIn.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/main/resources/resources/imooc-signIn.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/test" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/test/java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/test/java/com" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/test/java/com/shuaibi" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/test/java/com/shuaibi/zaizaisecurity" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/src/test/java/com/shuaibi/zaizaisecurity/ZaizaiSecurityApplicationTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-security/zaizai-security.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/shiro.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java/com" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java/com/shuaibi" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java/com/shuaibi/zaizaishiro" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java/com/shuaibi/zaizaishiro/ShiroApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java/com/shuaibi/zaizaishiro/config" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java/com/shuaibi/zaizaishiro/config/SessionPermanentClass.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java/com/shuaibi/zaizaishiro/config/ShiroConfigure.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java/com/shuaibi/zaizaishiro/config/ShiroRealm.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java/com/shuaibi/zaizaishiro/controller" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java/com/shuaibi/zaizaishiro/controller/ShiroHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java/com/shuaibi/zaizaishiro/controller/TestController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java/com/shuaibi/zaizaishiro/mapper" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java/com/shuaibi/zaizaishiro/mapper/SessionCRUDMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java/com/shuaibi/zaizaishiro/model" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java/com/shuaibi/zaizaishiro/model/User.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java/com/shuaibi/zaizaishiro/util" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/java/com/shuaibi/zaizaishiro/util/SerializableUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/resources/application-dev.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/resources/application-proc.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/resources/application.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/resources/ehcache.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/resources/static" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/resources/static/admin.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/resources/static/introduce.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/resources/static/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/resources/static/rememberMe.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/resources/static/superadmin.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/resources/static/unauthorized.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/main/resources/static/user.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/test" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/test/java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/test/java/com" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/test/java/com/shuaibi" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/test/java/com/shuaibi/zaizaishiro" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/test/java/com/shuaibi/zaizaishiro/shiro" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/src/test/java/com/shuaibi/zaizaishiro/shiro/ShiroApplicationTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai-shiro/zaizai-shiro.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/main" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/main/java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/main/java/com" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/main/java/com/shuaibi" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/main/java/com/shuaibi/alipay" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/main/java/com/shuaibi/alipay/AlipayApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/main/java/com/shuaibi/alipay/conf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/main/java/com/shuaibi/alipay/conf/AlipayConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/main/java/com/shuaibi/alipay/controller" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/main/java/com/shuaibi/alipay/controller/AlipayController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/main/resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/main/resources/application.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/main/resources/static" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/main/resources/static/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/test" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/test/java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/test/java/com" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/test/java/com/shuaibi" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/test/java/com/shuaibi/alipay" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/src/test/java/com/shuaibi/alipay/AlipayApplicationTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zaizai_alipay/zaizai_alipay.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_7.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/zaizai-commons/zaizai-commons.iml" afterPath="$PROJECT_DIR$/zaizai-commons/zaizai-commons.iml" />
+      <change beforePath="$PROJECT_DIR$/zaizai-goods/logs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zaizai-goods/logs/2018-11" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zaizai-goods/logs/2018-11/error-2018-11-19-1.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zaizai-goods/logs/2018-11/error-2018-11-20-1.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zaizai-goods/logs/2018-11/info-2018-11-17-1.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zaizai-goods/logs/2018-11/info-2018-11-20-1.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/zaizai-goods/zaizai-goods.iml" afterPath="$PROJECT_DIR$/zaizai-goods/zaizai-goods.iml" />
+      <change beforePath="$PROJECT_DIR$/zaizai-user/zaizai-user.iml" afterPath="$PROJECT_DIR$/zaizai-user/zaizai-user.iml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/zaizai-user/target/" />
+    <ignored path="$PROJECT_DIR$/zaizai-goods/target/" />
+    <ignored path="$PROJECT_DIR$/zaizai-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/zaizai-commons/target/" />
+    <ignored path="$PROJECT_DIR$/zaizai-shirp/target/" />
+    <ignored path="$PROJECT_DIR$/zaizai-shiro/target/" />
+    <ignored path="$PROJECT_DIR$/zaizai_alipay/target/" />
+    <ignored path="$PROJECT_DIR$/zaizai-security/target/" />
+    <ignored path="$PROJECT_DIR$/zaizai-demo/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/zaizai1_0$ZaizaiDemoApplication.coverage" NAME="ZaizaiDemoApplication Coverage Results" MODIFIED="1552583499291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/zaizai1_0$ZaizaiGoodsApplication.coverage" NAME="ZaizaiGoodsApplication Coverage Results" MODIFIED="1542956304431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="zaizai1.0" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="StringUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zaizai-commons/src/main/java/com/shuaibi/zaizaicommons/util/StringUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zaizai-commons/src/main/java/com/shuaibi/zaizaicommons/util/ResultUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1107">
+              <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageBeanField.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zaizai-commons/src/main/java/com/shuaibi/zaizaicommons/util/PageBeanField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zaizai-commons/src/main/java/com/shuaibi/zaizaicommons/util/MapUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zaizai-demo/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="34" column="105" lean-forward="false" selection-start-line="34" selection-start-column="105" selection-end-line="34" selection-end-column="105" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zaizai-goods/src/main/java/com/shuaibi/zaizaigoods/controller/GoodController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2916">
+              <caret line="124" column="41" lean-forward="false" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zaizai-goods/src/main/java/com/shuaibi/zaizaigoods/Service/GoodService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zaizai-goods/src/main/java/com/shuaibi/zaizaigoods/Service/impl/GoodServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4050">
+              <caret line="166" column="39" lean-forward="false" selection-start-line="166" selection-start-column="39" selection-end-line="166" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zaizai-goods/src/main/java/com/shuaibi/zaizaigoods/mapper/GoodMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zaizai-commons/src/main/java/com/shuaibi/zaizaicommons/util/PageBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>VARCHAR</find>
+      <find>TIMESTAMP</find>
+      <find>authentica</find>
+      <find>authentication</find>
+      <find>UsernamePasswordAuthenticationFil</find>
+      <find>success</find>
+      <find>LocalDateTime.now().isAfter</find>
+      <find>private SecurityProperties securityProperties;</find>
+      <find>SecurityProperties</find>
+      <find>访问的服务需要身份认证，请引导用户到登录页面</find>
+      <find>/authentication/require</find>
+      <find>坏的凭证</find>
+      <find>/authentication/form</find>
+      <find>@Bean</find>
+      <find>code.image.url</find>
+      <find>rank</find>
+      <find>_position</find>
+      <find>sided</find>
+      <find>boxRank</find>
+      <find>frameRank</find>
+      <find>discRank</find>
+      <find>boxBeginPosition</find>
+      <find>frameBeginPosition</find>
+      <find>b</find>
+      <find>discSided</find>
+      <find>discBeginPosition</find>
+      <find>boxSided</find>
+      <find>port</find>
+      <find>com.shuaibi.demo.BoxFrameDisc.bean.Port</find>
+      <find>activemq</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>side</replace>
+      <replace>boxCol</replace>
+      <replace>frameCol</replace>
+      <replace>discCol</replace>
+      <replace>boxBegin</replace>
+      <replace>frameBegin</replace>
+      <replace>discSide</replace>
+      <replace>discBegin</replace>
+      <replace>boxSide</replace>
+    </replaceStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/service/impl/IUserService.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/controller/IUserService.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ValidateCodeException.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ImageCode.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/properties/ValidateCodeProperties.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/properties/SecurityProperties.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/resources/resources/imooc-signIn.html" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/properties/ImageCodeProperties.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ValidateCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ValidateCodeController.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/authentication/ImoocAuthenticationFailureHandler.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ValidateCodeFilter.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ImageCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ValidateCodeBeanConfig.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/demo/code/DemoImageCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/authentication/ImoocAuthenticationSuccessHandler.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/conf/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/conf/MyUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/zaizai-goods/src/main/java/com/shuaibi/zaizaigoods/util/UploadUtil.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/AopDemo/DemoAnnotation.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/AopDemo/DemoAspect.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/controller/DemoController.java" />
+        <option value="$PROJECT_DIR$/zaizai-user/src/main/java/com/shuaibi/zaizaiuser/mp/CodeGenerator.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/ZaizaiDemoApplication.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zaizai-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/DiscTemplate.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/Template.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/Device.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/Frame.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/Box.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/FrameTemplate.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/Disc.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/Port.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/BoxTemplate.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/DiscOnline.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/DiscOnlineTemplate.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/dao/BoxMapper.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/controller/BoxController.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/MapTest.java" />
+        <option value="$PROJECT_DIR$/zaizai-goods/src/main/java/com/shuaibi/zaizaigoods/controller/GoodController.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/resources/mapper/BoxMapper.xml" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/DateTest.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/Synchronized/MyThread.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/Synchronized/SynchronizedTest.java" />
+        <option value="$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/Synchronized/SynchronizedContyroller.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/MavenServer/apache-maven-3.5.2" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zaizai-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="zaizai-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="540" />
+    <option name="y" value="34" />
+    <option name="width" value="1938" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Mybatis</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Ali-Check</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zaizai1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zaizai1.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zaizai1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zaizai1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="zaizai-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zaizai1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zaizai1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="zaizai-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zaizai1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zaizai1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="zaizai-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zaizai1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zaizai1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="zaizai-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="EclipseFormatter" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="D:/工作/code" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/重要/zaizai/zaizai1.0/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/FrameTemplate.java" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.shuaibi.zaizaisecurity.browser.service" />
+      <recent name="com.shuaibi.zaizaisecurity.browser.controller" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.shuaibi.zaizaisecurity.core" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\重要\zaizai\zaizai1.0\zaizai-security\src\main\java\com\shuaibi\zaizaisecurity\util" />
+      <recent name="D:\重要\zaizai\zaizai1.0\zaizai-shiro\src\main\java\com\shuaibi\zaizaishiro" />
+      <recent name="D:\重要\zaizai\zaizai1.0\zaizai-user\src\main\resources\mapper" />
+      <recent name="D:\重要\zaizai\zaizai1.0\zaizai-user\src\main\java\com\shuaibi\zaizaiuser" />
+      <recent name="D:\重要\zaizai\zaizai\zaizai-goods\src\main\java\com\shuaibi\zaizaigoods\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shuaibi.zaizaicommons.entity.user" />
+      <recent name="com.shuaibi.zaizaiuser" />
+      <recent name="com.shuaibi.zaizaicommons.entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\重要\zaizai\zaizai1.0\zaizai-user\src\main\resources" />
+      <recent name="D:\重要\zaizai\zaizai1.0\zaizai-shiro\src\main\resources" />
+      <recent name="D:\重要\zaizai\zaizai1.0\zaizai-shirp\src\main\java\com\shuaibi\zaizaishiro" />
+      <recent name="D:\重要\zaizai\zaizai1.0\zaizai-user\src\main\java\com\shuaibi\zaizaiuser\shiro\config" />
+      <recent name="D:\重要\zaizai\zaizai\zaizai-user\src\main\resources\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ZaizaiDemoApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shuaibi.zaizaiuser.mp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.shuaibi.zaizaiuser.mp.CodeGenerator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="zaizai-user" />
+      <envs />
+    </configuration>
+    <configuration name="ShiroRealm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shuaibi.zaizaiuser.shiro.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.shuaibi.zaizaiuser.shiro.config.ShiroRealm" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="zaizai-user" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="AlipayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shuaibi.alipay.AlipayApplication" />
+      <module name="zaizai_alipay" />
+      <envs />
+    </configuration>
+    <configuration name="ShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shuaibi.zaizaishiro.shiro.ShiroApplication" />
+      <module name="zaizai-shirp" />
+      <envs />
+    </configuration>
+    <configuration name="ZaizaiDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shuaibi.demo.ZaizaiDemoApplication" />
+      <module name="zaizai-demo" />
+      <envs />
+    </configuration>
+    <configuration name="ZaizaiEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shuaibi.zaizaieureka.ZaizaiEurekaApplication" />
+      <module name="zaizai-eureka" />
+      <envs />
+    </configuration>
+    <configuration name="ZaizaiGoodsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shuaibi.zaizaigoods.ZaizaiGoodsApplication" />
+      <module name="zaizai-goods" />
+      <envs />
+    </configuration>
+    <configuration name="ZaizaiSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shuaibi.zaizaisecurity.ZaizaiSecurityApplication" />
+      <module name="zaizai-security" />
+      <envs />
+    </configuration>
+    <configuration name="ZaizaiUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shuaibi.zaizaiuser.ZaizaiUserApplication" />
+      <module name="zaizai-user" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="9">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.ZaizaiEurekaApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.ZaizaiGoodsApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ZaizaiUserApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ShiroApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.AlipayApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.ZaizaiSecurityApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.ZaizaiDemoApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Application.CodeGenerator" />
+      <item index="8" class="java.lang.String" itemvalue="Application.ShiroRealm" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.CodeGenerator" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ShiroRealm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\10376\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\重要\zaizai\zaizai1.0" />
+          <option name="myCopyRoot" value="D:\重要\zaizai\zaizai1.0" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\重要\zaizai\zaizai1.0\.idea" />
+          <option name="myCopyRoot" value="D:\重要\zaizai\zaizai1.0\.idea" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\重要\zaizai\zaizai1.0\zaizai-commons" />
+          <option name="myCopyRoot" value="D:\重要\zaizai\zaizai1.0\zaizai-commons" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\重要\zaizai\zaizai1.0\zaizai-demo" />
+          <option name="myCopyRoot" value="D:\重要\zaizai\zaizai1.0\zaizai-demo" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\重要\zaizai\zaizai1.0\zaizai-eureka" />
+          <option name="myCopyRoot" value="D:\重要\zaizai\zaizai1.0\zaizai-eureka" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\重要\zaizai\zaizai1.0\zaizai-goods" />
+          <option name="myCopyRoot" value="D:\重要\zaizai\zaizai1.0\zaizai-goods" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\重要\zaizai\zaizai1.0\zaizai-security" />
+          <option name="myCopyRoot" value="D:\重要\zaizai\zaizai1.0\zaizai-security" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\重要\zaizai\zaizai1.0\zaizai-shiro" />
+          <option name="myCopyRoot" value="D:\重要\zaizai\zaizai1.0\zaizai-shiro" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\重要\zaizai\zaizai1.0\zaizai-user" />
+          <option name="myCopyRoot" value="D:\重要\zaizai\zaizai1.0\zaizai-user" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\重要\zaizai\zaizai1.0\zaizai_alipay" />
+          <option name="myCopyRoot" value="D:\重要\zaizai\zaizai1.0\zaizai_alipay" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\重要\zaizai\zaizai1.0" />
+          <option name="myCopyRoot" value="D:\重要\zaizai\zaizai1.0" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0d7718a-4489-4f91-aeee-64268a99428e" name="Default" comment="" />
+      <created>1542332822952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542332822952</updated>
+      <workItem from="1542332841992" duration="1892000" />
+      <workItem from="1542334750069" duration="4387000" />
+      <workItem from="1542339186414" duration="100000" />
+      <workItem from="1542339429083" duration="2109000" />
+      <workItem from="1542349693105" duration="11222000" />
+      <workItem from="1542428935678" duration="2736000" />
+      <workItem from="1542590112632" duration="835000" />
+      <workItem from="1542592240126" duration="19697000" />
+      <workItem from="1542681587961" duration="10065000" />
+      <workItem from="1542727656067" duration="2525000" />
+      <workItem from="1542763667231" duration="3185000" />
+      <workItem from="1542770409820" duration="5393000" />
+      <workItem from="1542877988407" duration="2914000" />
+      <workItem from="1542936441009" duration="307000" />
+      <workItem from="1542937087425" duration="7743000" />
+      <workItem from="1542948204334" duration="14887000" />
+      <workItem from="1543194558140" duration="14265000" />
+      <workItem from="1543221417919" duration="7853000" />
+      <workItem from="1543287769046" duration="2100000" />
+      <workItem from="1543298050263" duration="3289000" />
+      <workItem from="1543371384586" duration="15030000" />
+      <workItem from="1543453392686" duration="21626000" />
+      <workItem from="1543542621263" duration="5148000" />
+      <workItem from="1543547805087" duration="16505000" />
+      <workItem from="1543731015565" duration="1200000" />
+      <workItem from="1543801106441" duration="12819000" />
+      <workItem from="1543843684489" duration="2176000" />
+      <workItem from="1543845984705" duration="621000" />
+      <workItem from="1543886144308" duration="9144000" />
+      <workItem from="1543911975590" duration="12161000" />
+      <workItem from="1543972531385" duration="1979000" />
+      <workItem from="1544058458747" duration="15225000" />
+      <workItem from="1544145294184" duration="9468000" />
+      <workItem from="1544405811760" duration="8113000" />
+      <workItem from="1544492403919" duration="322000" />
+      <workItem from="1544607284853" duration="3640000" />
+      <workItem from="1544665094026" duration="5025000" />
+      <workItem from="1544687084062" duration="1573000" />
+      <workItem from="1544775332879" duration="932000" />
+      <workItem from="1545048735677" duration="4201000" />
+      <workItem from="1545095657379" duration="4787000" />
+      <workItem from="1545115429272" duration="7058000" />
+      <workItem from="1545184116060" duration="14704000" />
+      <workItem from="1545207933619" duration="13039000" />
+      <workItem from="1545268563962" duration="10000" />
+      <workItem from="1545268616789" duration="13267000" />
+      <workItem from="1545697413850" duration="18000" />
+      <workItem from="1546600461056" duration="168000" />
+      <workItem from="1546601271759" duration="35000" />
+      <workItem from="1546601355020" duration="207000" />
+      <workItem from="1546603815675" duration="680000" />
+      <workItem from="1547603157178" duration="47000" />
+      <workItem from="1547608812213" duration="4662000" />
+      <workItem from="1548035062275" duration="7032000" />
+      <workItem from="1548120524367" duration="12315000" />
+      <workItem from="1548228576215" duration="2084000" />
+      <workItem from="1548296031040" duration="2083000" />
+      <workItem from="1548409162642" duration="14000" />
+      <workItem from="1548485138988" duration="5400000" />
+      <workItem from="1548639939948" duration="2150000" />
+      <workItem from="1548642349479" duration="12906000" />
+      <workItem from="1548743441756" duration="25000" />
+      <workItem from="1548833574456" duration="8167000" />
+      <workItem from="1548900729392" duration="1339000" />
+      <workItem from="1548986737989" duration="9094000" />
+      <workItem from="1549962993105" duration="627000" />
+      <workItem from="1550021983452" duration="2640000" />
+      <workItem from="1550031581028" duration="2235000" />
+      <workItem from="1550052230342" duration="56000" />
+      <workItem from="1550470349922" duration="3330000" />
+      <workItem from="1550628021837" duration="5977000" />
+      <workItem from="1550713463961" duration="365000" />
+      <workItem from="1550713916139" duration="594000" />
+      <workItem from="1550720558824" duration="244000" />
+      <workItem from="1550729475469" duration="39000" />
+      <workItem from="1550746293724" duration="826000" />
+      <workItem from="1550806712188" duration="3768000" />
+      <workItem from="1551174432900" duration="2344000" />
+      <workItem from="1551427377654" duration="4032000" />
+      <workItem from="1551444389816" duration="30000" />
+      <workItem from="1552569998051" duration="4007000" />
+      <workItem from="1552581706970" duration="6548000" />
+      <workItem from="1552617055325" duration="3839000" />
+      <workItem from="1553083453404" duration="1735000" />
+      <workItem from="1553128981343" duration="1790000" />
+      <workItem from="1554037554060" duration="3386000" />
+      <workItem from="1554731766954" duration="2114000" />
+      <workItem from="1555368178060" duration="163000" />
+    </task>
+    <task id="LOCAL-00001" summary="商品的增和查">
+      <created>1542610196147</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542610196148</updated>
+    </task>
+    <task id="LOCAL-00002" summary="商品的增和查">
+      <created>1542610759939</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542610759939</updated>
+    </task>
+    <task id="LOCAL-00003" summary="商品的增和查">
+      <created>1542610817184</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542610817184</updated>
+    </task>
+    <task id="LOCAL-00004" summary="商品的增和查">
+      <created>1542612210038</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542612210038</updated>
+    </task>
+    <task id="LOCAL-00005" summary="商品增删改查">
+      <created>1542963386303</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542963386303</updated>
+    </task>
+    <task id="LOCAL-00006" summary="商品增删改查">
+      <created>1542964438577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542964438577</updated>
+    </task>
+    <task id="LOCAL-00007" summary="商品增删改查">
+      <created>1542973933653</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1542973933653</updated>
+    </task>
+    <task id="LOCAL-00008" summary="商品新增swagger属性，可在页面查看">
+      <created>1543232711180</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1543232711180</updated>
+    </task>
+    <task id="LOCAL-00009" summary="商品新增swagger属性，可在页面查看">
+      <created>1543232919084</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543232919084</updated>
+    </task>
+    <task id="LOCAL-00010" summary="商品新增swagger属性，可在页面查看">
+      <created>1543233006721</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543233006721</updated>
+    </task>
+    <task id="LOCAL-00011">
+      <created>1543824310664</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1543824310664</updated>
+    </task>
+    <task id="LOCAL-00012">
+      <created>1543825281271</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1543825281271</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Test例子">
+      <created>1543830473311</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1543830473311</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Test例子">
+      <created>1554737800934</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1554737800934</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ZaizaiGoodsApplicationTests_testUpload - 2018.11.22 at 17h 14m 40s.xml">
+      <configuration name="ZaizaiGoodsApplicationTests.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZaizaiGoodsApplicationTests_testUpload - 2018.11.22 at 17h 18m 27s.xml">
+      <configuration name="ZaizaiGoodsApplicationTests.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZaizaiGoodsApplicationTests_testUpload - 2018.11.22 at 17h 20m 30s.xml">
+      <configuration name="ZaizaiGoodsApplicationTests.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZaizaiGoodsApplicationTests_testUpload - 2018.11.22 at 17h 21m 06s.xml">
+      <configuration name="ZaizaiGoodsApplicationTests.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZaizaiGoodsApplicationTests_testUpload - 2018.11.22 at 17h 21m 59s.xml">
+      <configuration name="ZaizaiGoodsApplicationTests.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZaizaiGoodsApplicationTests_testUpload - 2018.11.22 at 17h 24m 46s.xml">
+      <configuration name="ZaizaiGoodsApplicationTests.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZaizaiGoodsApplicationTests_testUpload - 2018.11.22 at 17h 25m 26s.xml">
+      <configuration name="ZaizaiGoodsApplicationTests.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZaizaiGoodsApplicationTests_testUpload - 2018.11.22 at 17h 27m 46s.xml">
+      <configuration name="ZaizaiGoodsApplicationTests.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZaizaiGoodsApplicationTests_testUpload - 2018.11.22 at 17h 42m 55s.xml">
+      <configuration name="ZaizaiGoodsApplicationTests.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZaizaiGoodsApplicationTests_testUploadAndCreateThumb - 2018.11.22 at 17h 33m 17s.xml">
+      <configuration name="ZaizaiGoodsApplicationTests.testUploadAndCreateThumb" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="436392000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1582618" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42857143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855436" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36245573" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25375536" sideWeight="0.6765217" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2360515" sideWeight="0.32347825" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29634002" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2544843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="商品的增和查" />
+    <MESSAGE value="商品增删改查" />
+    <MESSAGE value="商品新增swagger属性，可在页面查看" />
+    <MESSAGE value="Test例子" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test例子" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zaizai-user/src/main/java/com/shuaibi/zaizaiuser/shiro/config/ShiroRealm.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zaizai-user/src/main/java/com/shuaibi/zaizaiuser/shiro/controller/ShiroHandler.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zaizai-user/src/main/java/com/shuaibi/zaizaiuser/shiro/config/ShiroRealm.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5.jar!/org/apache/shiro/realm/AuthenticatingRealm.class</url>
+          <line>216</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5.jar!/org/apache/shiro/realm/AuthenticatingRealm.class</url>
+          <line>176</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5.jar!/org/apache/shiro/authc/credential/SimpleCredentialsMatcher.class</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5.jar!/org/apache/shiro/authc/credential/HashedCredentialsMatcher.class</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5.jar!/org/apache/shiro/authc/credential/SimpleCredentialsMatcher.class</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5.jar!/org/apache/shiro/authc/credential/HashedCredentialsMatcher.class</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5.jar!/org/apache/shiro/authc/credential/HashedCredentialsMatcher.class</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.5/shiro-core-1.2.5.jar!/org/apache/shiro/mgt/DefaultSecurityManager.class</url>
+          <line>144</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zaizai_alipay/src/main/java/com/shuaibi/alipay/controller/AlipayController.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zaizai-goods/src/main/java/com/shuaibi/zaizaigoods/ZaizaiGoodsApplication.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ValidateCodeFilter.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ValidateCodeFilter.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zaizai-goods/src/main/java/com/shuaibi/zaizaigoods/util/FastDFSClientWrapper.java</url>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/AopDemo/DemoAspect.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/AopDemo/DemoAspect.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/AopDemo/DemoAspect.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/controller/BoxController.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="129" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="menus" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/zaizai-user/src/main/java/com/shuaibi/zaizaiuser/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai_alipay/src/main/java/com/shuaibi/alipay/controller/AlipayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3294">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-goods/src/main/resources/mapper/GoodMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="60" column="18" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1.jar!/com/sun/jersey/api/client/WebResource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="382" column="0" lean-forward="false" selection-start-line="382" selection-start-column="0" selection-end-line="382" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/dao/BoxMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-demo/src/main/resources/mapper/BoxMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/MapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/DateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/Box.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/BoxFrameDisc/bean/BoxTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/Synchronized/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/Synchronized/SynchronizedContyroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-demo/src/main/java/com/shuaibi/demo/Synchronized/SynchronizedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/authentication/ImoocAuthenticationFailureHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/authentication/ImoocAuthenticationSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ValidateCodeBeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ValidateCodeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/properties/BrowserProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/properties/ImageCodeProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/properties/LoginType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/properties/SecurityProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/properties/ValidateCodeProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/demo/code/DemoImageCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/support/SimpleResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/image/BufferedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1593">
+          <caret line="98" column="28" lean-forward="false" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ImageCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ImageCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/core/validate/code/ValidateCodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/conf/MyUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/conf/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="56" column="28" lean-forward="false" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-security/src/main/java/com/shuaibi/zaizaisecurity/browser/BrowserSecurityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-user/src/main/java/com/shuaibi/zaizaiuser/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-user/src/main/java/com/shuaibi/zaizaiuser/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="106" column="24" lean-forward="false" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-commons/src/main/java/com/shuaibi/zaizaicommons/util/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-commons/src/main/java/com/shuaibi/zaizaicommons/util/ResultCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-user/src/main/java/com/shuaibi/zaizaiuser/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-commons/src/main/java/com/shuaibi/zaizaicommons/conf/FileUploadConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-commons/src/main/java/com/shuaibi/zaizaicommons/websocket/SessionUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-commons/src/main/java/com/shuaibi/zaizaicommons/websocket/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-commons/src/main/java/com/shuaibi/zaizaicommons/util/TimeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-commons/src/main/java/com/shuaibi/zaizaicommons/util/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-commons/src/main/java/com/shuaibi/zaizaicommons/util/ResultUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-commons/src/main/java/com/shuaibi/zaizaicommons/util/PageBeanField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-goods/src/main/java/com/shuaibi/zaizaigoods/controller/GoodController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2916">
+          <caret line="124" column="41" lean-forward="false" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-goods/src/main/java/com/shuaibi/zaizaigoods/Service/GoodService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-goods/src/main/java/com/shuaibi/zaizaigoods/Service/impl/GoodServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4050">
+          <caret line="166" column="39" lean-forward="false" selection-start-line="166" selection-start-column="39" selection-end-line="166" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-goods/src/main/java/com/shuaibi/zaizaigoods/mapper/GoodMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-commons/src/main/java/com/shuaibi/zaizaicommons/util/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-commons/src/main/java/com/shuaibi/zaizaicommons/util/MapUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zaizai-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="34" column="105" lean-forward="false" selection-start-line="34" selection-start-column="105" selection-end-line="34" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>zaizai-demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

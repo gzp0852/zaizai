@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shuaibi.zaizaigoods.mapper.BrandMapper">
+
+    <resultMap id="brandMap" type="com.shuaibi.zaizaicommons.entity.goods.Brand">
+        <id property="brandId" column="goods_id"/>
+        <result property="brandName" column="goods_brand_name"></result>
+    </resultMap>
+
+    <select id="queryBrandById" resultMap="brandMap">
+        SELECT * FROM zaizai_goods_brand where goods_brand_id = #{id}
+    </select>
+
+</mapper>

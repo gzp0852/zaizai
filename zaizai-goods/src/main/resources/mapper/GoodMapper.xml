@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shuaibi.zaizaigoods.mapper.GoodMapper">
+
+    <resultMap id="goodMap" type="com.shuaibi.zaizaicommons.entity.goods.Good">
+        <id property="goodId" column="goods_id"/>
+        <result property="goodName" column="goods_name"></result>
+        <result property="goodPrice" column="goods_price"/>
+        <result property="goodCount" column="goods_count"/>
+        <result property="content" column="goods_content"/>
+        <result property="enable" column="enable"/>
+        <result property="time" column="goods_time"/>
+        <result property="updateTime" column="goods_update_time"/>
+        <association property="brand" column="goods_brand"
+                     select="com.shuaibi.zaizaigoods.mapper.BrandMapper.queryBrandById"/>
+        <association property="type" column="goods_type"
+                     select="com.shuaibi.zaizaigoods.mapper.TypeMapper.queryTypeById"/>
+        <association property="shop" column="goods_shop"
+                     select="com.shuaibi.zaizaigoods.mapper.ShopMapper.queryShopById"/>
+        <association property="fileEntities" column="goods_id" select="queryPic"/>
+    </resultMap>
+
+    <select id="queryPic" resultType="com.shuaibi.zaizaicommons.entity.util.FileEntity" parameterType="int">
+        SELECT pic_path path, pic_fullpath fullPath, pic_thumbpath thumbPath
+        FROM zaizai_pic
+        WHERE goods_id = #{id}
+    </select>
+    <insert id="addGood" parameterType="com.shuaibi.zaizaicommons.entity.goods.Good" useGeneratedKeys="true"
+            keyProperty="good.goodId">
+        INSERT INTO zaizai_goods (goods_name, goods_price, goods_count, goods_brand, goods_type,
+          goods_shop, goods_content, enable, goods_time, goods_update_time)
+        VALUES (#{good.goodName}, #{good.goodPrice}, #{good.goodCount}, #{good.brand.brandId}, #{good.type.typeId},
+         #{good.shop.shopId}, #{good.content}, #{good.enable}, #{good.time}, #{good.updateTime})
+    </insert>
+
+    <select id="queryGoodByName" resultMap="goodMap">
+        SELECT * from zaizai_goods where goods_name = #{goodName} and goods_shop = #{shopId}
+    </select>
+
+    <select id="queryGoodById" resultMap="goodMap" parameterType="int">
+        SELECT * from zaizai_goods where goods_id = #{id}
+    </select>
+
+    <insert id="addPic">
+        INSERT INTO
+        zaizai_pic
+        (
+        pic_path,
+        pic_fullpath,
+        pic_thumbpath,
+        goods_id
+        )
+        VALUES
+        <foreach collection="pics" item="pic" separator="," index="index">
+            (
+            #{pic.path},
+            #{pic.fullPath},
+            #{pic.thumbPath},
+            #{goodId}
+            )
+        </foreach>
+    </insert>
+
+    <delete id="deleteByGoodId" parameterType="int">
+        DELETE FROM zaizai_pic WHERE goods_id = #{goodId};
+    </delete>
+
+    <update id="updateGood" parameterType="com.shuaibi.zaizaicommons.entity.goods.Good">
+        UPDATE zaizai_goods SET
+        <if test="good.goodName != null and good.goodName != ''">
+            goods_name = #{good.goodName},
+        </if>
+        <if test="good.goodPrice != null and good.goodPrice != ''">
+            goods_price = #{good.goodPrice},
+        </if>
+        <if test="good.goodCount != null and good.goodCount != ''">
+            goods_count = #{good.goodCount},
+        </if>
+        <if test="good.brand.brandId != null and good.brand.brandId != ''">
+            goods_brand = #{good.brand.brandId},
+        </if>
+        <if test="good.shop.shopId != null and good.shop.shopId != ''">
+            goods_type = #{good.shop.shopId},
+        </if>
+        <if test="good.content != null and good.content != ''">
+            goods_content = #{good.content},
+        </if>
+        <if test="good.enable != null and good.enable != ''">
+            enable = #{good.enable},
+        </if>
+        goods_update_time = #{good.updateTime}
+        where goods_id = #{good.goodId}
+    </update>
+
+    <delete id="deleteGoodByGoodId" parameterType="int">
+        DELETE FROM zaizai_goods WHERE goods_id = #{id}
+    </delete>
+
+    <select id="fuzzyQuery"  resultMap="goodMap" parameterType="String">
+        SELECT * FROM zaizai_goods good
+        LEFT JOIN zaizai_goods_brand brand ON good.goods_brand = brand.goods_brand_id
+        LEFT JOIN zaizai_goods_type type ON good.goods_type = type.goods_type_id
+        <where>
+            <if test="queryStr != null and queryStr != ''">
+                AND good.goods_name LIKE '%${queryStr}%'
+                OR type.goods_type_name LIKE '%${queryStr}%'
+                OR brand.goods_brand_name Like '%${queryStr}%'
+            </if>
+            AND good.enable = "1"
+        </where>
+        <if test="sortField != null  and sortField != ''">
+            <if test="sortField == 'type'">
+                ORDER BY type.goods_type_name
+            </if>
+            <if test="sortField == 'price'">
+                ORDER BY good.goods_price
+            </if>
+            <if test="sortField == 'name'">
+                ORDER BY good.goods_name
+            </if>
+        </if>
+        <if test="sortWay != null and sortWay != ''">
+            <if test="sortWay == 'up'">
+                ASC
+            </if>
+            <if test="sortWay == 'down'">
+                DESC
+            </if>
+        </if>
+        LIMIT #{begin}, #{pageSize};
+    </select>
+
+    <select id="queryCount" resultType="int" parameterType="String">
+        SELECT COUNT(good.goods_id) FROM zaizai_goods good
+        LEFT JOIN zaizai_goods_brand brand ON good.goods_brand = brand.goods_brand_id
+        LEFT JOIN zaizai_goods_type type ON good.goods_type = type.goods_type_id
+        <where>
+            <if test="queryStr != null and queryStr != ''">
+                AND good.goods_name LIKE '%${queryStr}%'
+                OR type.goods_type_name LIKE '%${queryStr}%'
+                OR brand.goods_brand_name Like '%${queryStr}%'
+            </if>
+            AND good.enable = "1"
+        </where>
+    </select>
+</mapper>

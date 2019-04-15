@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.shuaibi.zaizaisecurity.core.properties.SecurityProperties",
+      "name": "imooc.security",
+      "type": "com.shuaibi.zaizaisecurity.core.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.shuaibi.zaizaisecurity.core.properties.SecurityProperties",
+      "name": "imooc.security.browser",
+      "type": "com.shuaibi.zaizaisecurity.core.properties.BrowserProperties"
+    },
+    {
+      "sourceType": "com.shuaibi.zaizaisecurity.core.properties.SecurityProperties",
+      "name": "imooc.security.code",
+      "type": "com.shuaibi.zaizaisecurity.core.properties.ValidateCodeProperties"
+    }
+  ]
+}

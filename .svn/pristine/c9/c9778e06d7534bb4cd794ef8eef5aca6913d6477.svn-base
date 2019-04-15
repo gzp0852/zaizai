@@ -1,0 +1,164 @@
+package com.shuaibi.zaizaigoods.Service.impl;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.shuaibi.zaizaicommons.entity.util.FileEntity;
+import com.shuaibi.zaizaicommons.util.*;
+import com.shuaibi.zaizaigoods.Service.GoodService;
+import com.shuaibi.zaizaicommons.entity.goods.Good;
+import com.shuaibi.zaizaigoods.mapper.GoodMapper;
+import com.shuaibi.zaizaigoods.util.UploadUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.util.ObjectUtils;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.io.*;
+import java.util.List;
+
+/**
+ * @author gzp
+ * @date 2018/11/16 16:15
+ */
+@Service
+@Transactional(rollbackFor = Exception.class)
+public class GoodServiceImpl implements GoodService {
+
+	private static final ObjectMapper mapper = new ObjectMapper();
+	private Logger logger = LoggerFactory.getLogger(this.getClass());
+
+	@Autowired
+	private GoodMapper goodMapper;
+
+	@Autowired
+	private UploadUtil uploadUtil;
+
+	/**
+	 * 添加商品
+	 * @param goodStr 商品json
+	 * @param files 图片文件
+	 * @return Result
+	 * @throws IOException Exception
+	 */
+	@Override
+	public Result addGood(String goodStr, MultipartFile[] files) throws IOException {
+		if (ObjectUtils.isEmpty(goodStr)) {
+			return ResultUtils.warn(ResultCode.PARAM_ERROR);
+		}
+		Good good = mapper.readValue(goodStr, Good.class);
+		// 校验商品参数是否合理
+		if (!checkGood(good, "add")) {
+			return ResultUtils.warn(ResultCode.FAIL);
+		}
+		// 设置添加时间
+		good.setTime(TimeUtils.nowTimeFormat());
+		good.setUpdateTime(TimeUtils.nowTimeFormat());
+
+		//	添加到文件服务器并且获取商品对应路径
+		List<FileEntity> fileEntities = uploadUtil.batchUpload(files);
+		good.setFileEntities(fileEntities);
+
+		// 保存商品
+		if (goodMapper.addGood(good) <= 0) {
+			return ResultUtils.warn(ResultCode.INSERT_ERROR);
+		}
+		//保存图片路径
+		if (goodMapper.addPic(good.getFileEntities(), good.getGoodId()) <= 0) {
+			return ResultUtils.warn(ResultCode.INSERT_PIC_ERROR);
+		}
+		return ResultUtils.success(null);
+	}
+
+	/**
+	 * 查看商品详情
+	 * @param id 商品Id
+	 * @return Result
+	 */
+	@Override
+	public Result queryGoodById(String id) {
+		if (StringUtils.isEmpty(id)) {
+			return ResultUtils.warn(ResultCode.PARAM_ERROR);
+		}
+		Good good = goodMapper.queryGoodById(Integer.parseInt(id));
+		return ResultUtils.success(good);
+	}
+
+	/**
+	 * 修改商品信息
+	 * @param goodStr 商品json
+	 * @param files 图片文件
+	 * @return Result
+	 * @throws IOException Exception
+	 */
+	@Override
+	public Result modifyGood(String goodStr, MultipartFile[] files) throws IOException {
+		if (ObjectUtils.isEmpty(goodStr)) {
+			return ResultUtils.warn(ResultCode.PARAM_ERROR);
+		}
+
+		Good good = mapper.readValue(goodStr, Good.class);
+		if (good.getGoodId() == 0 || !checkGood(good, "modify")) {
+			return ResultUtils.warn(ResultCode.FAIL);
+		}
+		try {
+			List<FileEntity> fileEntityList = goodMapper.queryPic(good.getGoodId());
+			List<FileEntity> fileEntities = uploadUtil.batchUpload(files);
+			good.setFileEntities(fileEntities);
+			uploadUtil.deleteFile(fileEntityList);
+			goodMapper.deleteByGoodId(good.getGoodId());
+			if (goodMapper.addPic(good.getFileEntities(), good.getGoodId()) <= 0) {
+				return ResultUtils.warn(ResultCode.INSERT_PIC_ERROR);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		good.setUpdateTime(TimeUtils.nowTimeFormat());
+		goodMapper.updateGood(good);
+		return ResultUtils.success(null);
+	}
+
+	/**
+	 * 删除商品
+	 * @param goodId 商品id
+	 * @return Result
+	 */
+	public Result deleteGood(String goodId) {
+		int id = Integer.parseInt(goodId);
+		goodMapper.deleteGoodByGoodId(id);
+		List<FileEntity> fileEntityList = goodMapper.queryPic(id);
+		try {
+			uploadUtil.deleteFile(fileEntityList);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		goodMapper.deleteByGoodId(id);
+		return ResultUtils.success("删除成功");
+	}
+
+	/**
+	 * 校验商品信息
+	 * @param good 商品信息
+	 * @param type add还是modify
+	 * @return	boolean
+	 */
+	public boolean checkGood(Good good, String type) {
+		if (type.equals("add")) {
+			Good good1 = goodMapper.queryGoodByName(good.getGoodName(), good.getShop().getShopId());
+			if (!ObjectUtils.isEmpty(good1)) {
+				return false;
+			}
+		}
+		if (type.equals("modify")) {
+			Good good1 = goodMapper.queryGoodByName(good.getGoodName(), good.getShop().getShopId());
+			if (!ObjectUtils.isEmpty(good1) && good1.getGoodName().equals(good.getGoodName())
+					&& good1.getGoodId() == good.getGoodId()) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+}

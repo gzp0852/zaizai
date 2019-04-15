@@ -1,0 +1,16 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+
+<!--<!DOCTYPE configuration-->
+        <!--PUBLIC "-//mybatis.org//DTD Config 3.0//EN"-->
+        <!--"http://mybatis.org/dtd/mybatis-3-config.dtd">-->
+
+<!--<configuration>-->
+    <!--&lt;!&ndash;非自定义别名，所有javaJDK中的类都定义了别名，别名是类名不区分大小写: map 替换java.util.Map-->
+        <!--如果是包装类，还可以使用基本数据类型：int 替换java.lang.Integer-->
+    <!--&ndash;&gt;-->
+    <!--<typeAliases>-->
+        <!--&lt;!&ndash;自定义别名&ndash;&gt;-->
+        <!--<typeAlias  alias="user" type="com.shuaibi.zaizaicommons.entity.user.User"/>-->
+    <!--</typeAliases>-->
+
+<!--</configuration>-->

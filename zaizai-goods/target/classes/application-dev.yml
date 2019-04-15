@@ -1,0 +1,88 @@
+
+serverIp: localhost
+serverPort: 8901
+
+
+dbIp: 39.108.213.45
+dbPort: 3306
+dbName: zaizai
+dbUser: admin
+dbPwd: Root-2018
+
+server:
+  port: ${serverPort}
+
+
+mybatis-plus:
+  mapper-locations:
+    classpath*:mapper/*.xml
+  type-aliases-package: com.shuaibi.zaizaicommons.entity
+  global-config:
+    logic-delete-value: 0
+    logic-not-delete-value: 1
+    idType: 0
+    fieldStrategy: 2
+    dbColumnUnderline: true
+    isRefresh: true
+    isCapitalMode: true
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    name: druidDataSource
+    platform: mysql
+    druid:
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://${dbIp}:${dbPort}/${dbName}?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
+      username: ${dbUser}
+      password: ${dbPwd}
+      initialSize: 5
+      minIdle: 5
+      maxActive: 20
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: SELECT1FROMDUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      filters: stat,wall,log4j2,config
+      filter:
+        stat:
+          log-slow-sql: true
+          slow-sql-millis: 2000
+  devtools:
+    restart:
+      enabled: false
+  http:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 2MB
+
+eureka:
+   client:
+     service-url:
+       defaultZone: http://localhost:8761/eureka/
+     healthcheck:
+       enable: true
+   instance:
+     lease-renewal-interval-in-seconds: 30
+     lease-expiration-duration-in-seconds: 90
+
+
+#logging:
+#  config: classpath:log4j2.xml
+#  level:
+#    com.shuaibi.zaizaigoods: debug
+# 分布式文件系统FDFS配置
+
+fdfs:
+  soTimeout: 1501 #socket连接超时时长
+  connectTimeout: 601 #连接tracker服务器超时时长
+  resHost: 39.108.213.45
+  storagePort: 80
+  thumbImage: #缩略图生成参数，可选
+      width: 20
+      height: 20
+  trackerList: #TrackerList参数,支持多个，我这里只有一个，如果有多个在下方加- x.x.x.x:port
+    - 39.108.213.45:22122

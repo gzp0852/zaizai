@@ -1,0 +1,75 @@
+package com.shuaibi.zaizaigoods.Controller;
+
+import com.shuaibi.zaizaicommons.util.Result;
+import com.shuaibi.zaizaicommons.util.ResultUtils;
+import com.shuaibi.zaizaigoods.Service.GoodService;
+import com.shuaibi.zaizaicommons.entity.goods.Good;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.io.IOException;
+
+/**
+ * @author gzp
+ * @date 2018/11/16 16:04
+ */
+@RestController
+@RequestMapping("/goods")
+public class GoodController {
+
+	@Autowired
+	private GoodService goodService;
+
+	/**
+	 * 添加商品
+	 * @param params 商品json
+	 * @param files 图片文件
+	 * @return Result
+	 * @throws IOException Exception
+	 */
+	@PostMapping("/addGood")
+	public Result addGoods(@RequestParam("goodInfo") String params,@RequestParam("img") MultipartFile[] files)
+			throws IOException {
+
+		Result result = goodService.addGood(params, files);
+		return result;
+	}
+
+	/**
+	 * 查看商品详情
+	 * @param id 商品Id
+	 * @return Result
+	 */
+	@PostMapping("/queryGoodById")
+	public Result queryGoodById(@RequestBody String id) {
+		Result result = goodService.queryGoodById(id);
+		return result;
+	}
+
+	/**
+	 * 修改商品信息
+	 * @param params 商品json
+	 * @param files 图片文件
+	 * @return Result
+	 * @throws IOException Exception
+	 */
+	@PostMapping("/modifyGood")
+	public Result modifyGood(@RequestParam("goodInfo") String params,@RequestParam("img") MultipartFile[] files)
+			throws IOException {
+		Result result = goodService.modifyGood(params, files);
+		return result;
+	}
+
+	/**
+	 * 删除商品
+	 * @param goodId 商品id
+	 * @return Result
+	 */
+	@GetMapping("/deleteGood/{goodId}")
+	public Result deleteGood(@PathVariable String goodId) {
+		Result result = goodService.deleteGood(goodId);
+		return result;
+	}
+}
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Zaizai" />
+        <module name="zaizai-commons" />
+        <module name="zaizai-eureka" />
+        <module name="zaizai-goods" />
+        <module name="zaizai-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Zaizai" target="1.5" />
+      <module name="zaizai-commons" target="1.8" />
+      <module name="zaizai-eureka" target="1.8" />
+      <module name="zaizai-goods" target="1.8" />
+      <module name="zaizai-user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

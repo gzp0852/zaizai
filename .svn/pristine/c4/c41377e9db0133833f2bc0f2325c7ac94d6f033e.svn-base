@@ -1,0 +1,196 @@
+[00:00:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:00:00:745] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:00:00:746] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:00:30:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:00:30:095] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:00:30:095] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:01:00:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:01:00:215] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:01:00:215] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:01:30:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:01:30:269] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:01:30:269] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:02:00:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:02:00:095] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:02:00:095] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:02:30:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:02:30:092] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:02:30:093] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:03:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:03:00:109] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:03:00:110] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:03:30:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:03:30:101] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:03:30:101] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:04:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:04:00:096] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:04:00:096] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:04:30:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:04:30:090] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:04:30:090] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:05:00:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:05:00:092] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:05:00:092] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:05:30:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:05:30:088] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:05:30:088] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:06:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:06:00:076] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:06:00:076] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:06:30:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:06:30:095] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:06:30:096] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:07:00:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:07:00:096] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:07:00:097] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:07:30:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:07:30:099] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:07:30:099] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:08:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:08:00:086] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:08:00:087] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:08:30:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:08:30:104] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:08:30:104] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:09:00:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:09:00:089] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:09:00:090] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:09:30:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:09:30:096] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:09:30:097] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:10:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:10:00:092] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:10:00:093] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:10:30:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:10:30:085] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:10:30:086] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:10:54:645] [INFO] - org.springframework.web.socket.config.WebSocketMessageBrokerStats.lambda$initLoggingTask$0(WebSocketMessageBrokerStats.java:124) - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannelpool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 1, completed tasks = 801]
+[00:11:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:11:00:085] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:11:00:085] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:11:30:000] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:11:30:088] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:11:30:088] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:12:00:000] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:12:00:100] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:12:00:100] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:12:30:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:12:30:085] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:12:30:086] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:13:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:13:00:096] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:13:00:097] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:13:30:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:13:30:084] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:13:30:084] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:14:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:14:00:096] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:14:00:096] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:14:30:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:14:30:081] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:14:30:082] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:15:00:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:15:00:089] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:15:00:089] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:15:30:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:15:30:077] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:15:30:077] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:16:00:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:16:00:095] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:16:00:096] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:16:30:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:16:30:093] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:16:30:094] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:17:00:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:17:00:096] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:17:00:096] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:17:30:003] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:17:30:093] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:17:30:093] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:18:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:18:00:100] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:18:00:100] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:18:30:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:18:30:093] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:18:30:094] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:19:00:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:19:00:093] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:19:00:093] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:19:30:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:19:30:088] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:19:30:088] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:20:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:20:00:095] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:20:00:095] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:20:30:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:20:30:094] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:20:30:094] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:21:00:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:21:00:085] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:21:00:086] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:21:30:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:21:30:101] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:21:30:102] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:22:00:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:22:00:102] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:22:00:102] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:22:30:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:22:30:099] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:22:30:099] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:23:00:000] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:23:00:088] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:23:00:089] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:23:30:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:23:30:088] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:23:30:088] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:24:00:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:24:00:099] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:24:00:099] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:24:30:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:24:30:078] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:24:30:078] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:25:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:25:00:097] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:25:00:097] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:25:30:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:25:30:251] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:25:30:251] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:26:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:26:00:091] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:26:00:091] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:26:30:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:26:30:109] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:26:30:109] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:27:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:27:00:082] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:27:00:082] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:27:30:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:27:30:085] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:27:30:085] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:28:00:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:28:00:103] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:28:00:104] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:28:30:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:28:30:106] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:28:30:106] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:29:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:29:00:084] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:29:00:084] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:29:30:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:29:30:098] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:29:30:098] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:30:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:30:00:095] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:30:00:095] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:30:30:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:30:30:089] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:30:30:089] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:31:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:31:00:093] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:31:00:093] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:31:30:001] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:31:30:088] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:31:30:088] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}
+[00:32:00:002] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:56) - 检查是否存在超时未操作用户************
+[00:32:00:082] [INFO] - com.wistronits.aml.schedule.TimeOutOfflineTask.lambda$start$0(TimeOutOfflineTask.java:71) - 用户被下线******admin
+[00:32:00:082] [INFO] - com.wistronits.aml.commons.websocket.WebSocketProduct.send(WebSocketProduct.java:34) - 发送websocket：WebSocketSendBean{path='/chatTopic/user/eb8ed7d4e5a56723083f824fecdbd1fd', msg='您已超时，请重新登录！'}

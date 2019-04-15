@@ -1,0 +1,20 @@
+server:
+  port: 8900
+eureka:
+  client:
+    healthcheck:
+      enable: true
+    service-url:
+      defaultZone: http://39.108.213.45:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${server.port}}
+    metadata-map:
+      zone: wuhan
+    lease-renewal-interval-in-seconds: 30
+    lease-expiration-duration-in-seconds: 90
+
+spring:
+  application:
+    name: zaizai-user
+

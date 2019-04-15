@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Zaizai.iml" filepath="$PROJECT_DIR$/Zaizai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zaizai-commons/zaizai-commons.iml" filepath="$PROJECT_DIR$/zaizai-commons/zaizai-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zaizai-eureka/zaizai-eureka.iml" filepath="$PROJECT_DIR$/zaizai-eureka/zaizai-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zaizai-goods/zaizai-goods.iml" filepath="$PROJECT_DIR$/zaizai-goods/zaizai-goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zaizai-user/zaizai-user.iml" filepath="$PROJECT_DIR$/zaizai-user/zaizai-user.iml" />
+    </modules>
+  </component>
+</project>

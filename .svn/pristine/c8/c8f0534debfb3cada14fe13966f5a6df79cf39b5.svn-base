@@ -1,0 +1,22 @@
+package com.shuaibi.zaizaigoods.Service;
+
+import com.shuaibi.zaizaicommons.util.Result;
+import com.shuaibi.zaizaicommons.entity.goods.Good;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.io.IOException;
+
+/**
+ * @author gzp
+ * @date 2018/11/16 16:14
+ */
+public interface GoodService {
+
+	public Result addGood(String goodStr, MultipartFile[] file) throws IOException;
+
+	public Result queryGoodById(String id);
+
+	public Result modifyGood(String goodStr, MultipartFile[] files) throws IOException;
+
+	public Result deleteGood(String goodId);
+}

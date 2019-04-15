@@ -1,0 +1,52 @@
+
+serverIp: localhost
+serverPort: 8080
+
+
+dbIp: localhost
+dbPort: 3306
+dbName: filink_device
+dbUser: root
+dbPwd: root
+
+server:
+  port: ${serverPort}
+
+mybatis-plus:
+  mapper-locations:
+    classpath*:mapper/*.xml
+  type-aliases-package: com.shuaibi.demo.BoxFrameDisc.bean
+  global-config:
+    logic-delete-value: 0
+    logic-not-delete-value: 1
+    idType: 0
+    fieldStrategy: 2
+    dbColumnUnderline: true
+    isRefresh: true
+    isCapitalMode: true
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    name: druidDataSource
+    platform: mysql
+    druid:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://${dbIp}:${dbPort}/${dbName}?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+      username: ${dbUser}
+      password: ${dbPwd}
+      initialSize: 5
+      minIdle: 5
+      maxActive: 20
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: SELECT1FROMDUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      filters: stat,wall,config
+      filter:
+        stat:
+          log-slow-sql: true
+          slow-sql-millis: 2000

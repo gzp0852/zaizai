@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shiro" />
+        <module name="Zaizai" />
+        <module name="zaizai-commons" />
+        <module name="zaizai-demo" />
+        <module name="zaizai-eureka" />
+        <module name="zaizai-goods" />
+        <module name="zaizai-security" />
+        <module name="zaizai-shirp" />
+        <module name="zaizai-user" />
+        <module name="zaizai_alipay" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shiro" target="1.8" />
+      <module name="Zaizai" target="1.5" />
+      <module name="zaizai-commons" target="1.8" />
+      <module name="zaizai-demo" target="1.8" />
+      <module name="zaizai-eureka" target="1.8" />
+      <module name="zaizai-goods" target="1.8" />
+      <module name="zaizai-security" target="1.8" />
+      <module name="zaizai-shirp" target="1.8" />
+      <module name="zaizai-user" target="1.8" />
+      <module name="zaizai_alipay" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

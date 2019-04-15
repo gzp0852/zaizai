@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shuaibi.zaizaisecurity.browser.mapper.IUserMapper">
+
+    <resultMap id="userMap" type="com.shuaibi.zaizaisecurity.browser.entity.User">
+        <id property="userId" column="user_id"/>
+        <result property="userCode" column="user_code"></result>
+        <result property="userName" column="user_name"></result>
+        <result property="userNickname" column="user_nickname"/>
+        <result property="userStatus" column="user_status"/>
+        <result property="address" column="address"/>
+        <result property="phonenumber" column="phonenumber"/>
+        <result property="email" column="email"/>
+        <result property="password" column="password"/>
+        <result property="passwordValidityTime" column="password_validity_time"/>
+        <result property="userdesc" column="userdesc"/>
+        <result property="lastLoginTime" column="last_login_time"/>
+        <result property="lastLoginIp" column="last_login_ip"/>
+        <result property="deleted" column="deleted"/>
+        <result property="cuser" column="cuser"/>
+        <result property="cdate" column="cdate"/>
+        <result property="uuser" column="uuser"/>
+        <result property="udate" column="udate"/>
+    </resultMap>
+
+    <insert id="addUser" parameterType="user">
+        INSERT INTO user (
+        user_code,
+        user_name,
+        user_nickname,
+        user_status,
+        address,
+        phonenumber,
+        email,
+        password,
+        password_validity_time,
+        userdesc,
+        last_login_time,
+        last_login_ip,
+        deleted,
+        cuser,
+        cdate,
+        uuser,
+        udate
+        ) VALUES (
+        #{userCode},
+        #{userName},
+        #{userNickname},
+        #{userStatus},
+        #{address},
+        #{phonenumber},
+        #{email},
+        #{password},
+        #{passwordValidityTime},
+        #{userdesc},
+        #{lastLoginTime},
+        #{lastLoginIp},
+        #{deleted},
+        #{cuser},
+        #{cdate},
+        #{uuser},
+        #{udate}
+        )
+    </insert>
+
+    <select id="queryPwdByName" parameterType="string" resultType="user">
+        SELECT * FROM user where user_code = #{name}
+    </select>
+</mapper>
