@@ -1,0 +1,90 @@
+/*
+SQLyog 企业版 - MySQL GUI v8.14 
+MySQL - 8.0.13 : Database - chat
+*********************************************************************
+*/
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`chat` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+USE `chat`;
+
+/*Table structure for table `user` */
+
+DROP TABLE IF EXISTS `user`;
+
+CREATE TABLE `user` (
+  `user_id` varchar(50) NOT NULL,
+  `user_code` varchar(20) NOT NULL,
+  `user_name` varchar(50) NOT NULL,
+  `password` varchar(50) NOT NULL,
+  `sex` char(2) DEFAULT NULL,
+  `age` char(3) DEFAULT NULL,
+  `profile` varchar(255) DEFAULT NULL COMMENT '简介',
+  `profilehead` varchar(255) DEFAULT NULL COMMENT '图片路劲',
+  `register_time` varchar(50) DEFAULT NULL,
+  `last_time` varchar(50) DEFAULT NULL,
+  `status` char(1) DEFAULT NULL,
+  `last_ip` varchar(50) DEFAULT NULL,
+  `deleted` char(2) DEFAULT NULL COMMENT '是否被删除  1代表被删除   -1不可删除',
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `user` */
+
+insert  into `user`(`user_id`,`user_code`,`user_name`,`password`,`sex`,`age`,`profile`,`profilehead`,`register_time`,`last_time`,`status`,`last_ip`,`deleted`) values ('0cdb58d2-bbd5-11e8-946d-0a0027000005','550221','admin1','21232f297a57a5a743894a0e4a801fc3','2','25','爱是一道光!a','550221.png','',NULL,NULL,'119.97.224.250',NULL),('1','123123','admin2','21232f297a57a5a743894a0e4a801fc3','1','17','安咯','123123.png','',NULL,NULL,'60.190.31.162',NULL),('8709d6f1-bbd4-11e8-946d-0a0027000005','598835','admin','21232f297a57a5a743894a0e4a801fc3','2','11','aaa','598835.png','',NULL,NULL,'113.57.182.141',NULL);
+
+/*Table structure for table `user_friends` */
+
+DROP TABLE IF EXISTS `user_friends`;
+
+CREATE TABLE `user_friends` (
+  `user_id` varchar(50) NOT NULL,
+  `friend_id` varchar(50) NOT NULL,
+  `best_friend_id` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`user_id`,`friend_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `user_friends` */
+
+/*Table structure for table `test` */
+
+DROP TABLE IF EXISTS `test`;
+
+/*!50001 DROP VIEW IF EXISTS `test` */;
+/*!50001 DROP TABLE IF EXISTS `test` */;
+
+/*!50001 CREATE TABLE  `test`(
+ `user_id` varchar(50) NOT NULL ,
+ `user_code` varchar(20) NOT NULL ,
+ `user_name` varchar(50) NOT NULL ,
+ `password` varchar(50) NOT NULL ,
+ `sex` char(2) NULL ,
+ `age` char(3) NULL ,
+ `profile` varchar(255) NULL ,
+ `profilehead` varchar(255) NULL ,
+ `register_time` varchar(50) NULL ,
+ `last_time` varchar(50) NULL ,
+ `status` char(1) NULL ,
+ `last_ip` varchar(50) NULL ,
+ `deleted` char(2) NULL 
+)*/;
+
+/*View structure for view test */
+
+/*!50001 DROP TABLE IF EXISTS `test` */;
+/*!50001 DROP VIEW IF EXISTS `test` */;
+
+/*!50001 CREATE ALGORITHM=UNDEFINED DEFINER=`gzp`@`%` SQL SECURITY DEFINER VIEW `test` AS select `user`.`user_id` AS `user_id`,`user`.`user_code` AS `user_code`,`user`.`user_name` AS `user_name`,`user`.`password` AS `password`,`user`.`sex` AS `sex`,`user`.`age` AS `age`,`user`.`profile` AS `profile`,`user`.`profilehead` AS `profilehead`,`user`.`register_time` AS `register_time`,`user`.`last_time` AS `last_time`,`user`.`status` AS `status`,`user`.`last_ip` AS `last_ip`,`user`.`deleted` AS `deleted` from `user` */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
